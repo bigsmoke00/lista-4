@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+opc="
+[R] - Digite o nome de um arquivo a ser processado.
+[A] - Remova todas as letras do arquivo.
+[B] - Remova todos os dígitos do arquivo.
+[C] - Substitua todos os caracteres que não são letras nem dígitos do arquivo por ~.
+[Q] - Sair do Script
+"
+function escolher_arq (){
